@@ -33,7 +33,7 @@ public class FastqReader
 		String line2 = theBufferedReader.readLine();
 		String line3 = theBufferedReader.readLine();
 		
-		FastqRecord output = new FastqRecord(line1, line2, line3);
+		FastqRecord output = new FastqRecord(line, line1, line3);
 		return output;
 	}
 }

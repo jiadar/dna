@@ -46,6 +46,10 @@ public class FastqRecord implements DNARecord
 		return sequence;
 	}
 
+   public String toString() {
+      return defline;
+   }
+
 	//
 	// Provide an equals() method that checks for deep equality of all 3 instance variables. 
 	// When checking string variables, be sure to do it like this:  

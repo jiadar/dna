@@ -31,9 +31,7 @@ public class FastaRecord implements DNARecord
 	{
 		this.defline = ">" + fastqRec.getDefline().substring(1);
 		this.sequence = fastqRec.getSequence();
-	}
-	
-	
+	}	
 
 	// 
 	// Provide the 2 methods that satisfy the interface.
@@ -47,7 +45,7 @@ public class FastaRecord implements DNARecord
 	{
 		return sequence;
 	}
-	
+
 	
 	//
 	// Provide an equals() method. 
